@@ -1,0 +1,102 @@
+ul.ui-autocomplete {
+    z-index: 1100;
+}
+.select2-container--open {
+    z-index: 9999999
+}
+.bg-gradient-primary{
+    background-color:#b333a288;
+    background-image:-webkit-gradient(linear,left top,left bottom,color-stop(10%,#124149),to(#0d5555));
+    background-image:linear-gradient(180deg,#2f6b5f 1%,#032b22d3 80%);background-size:cover
+}
+.btn-primary{
+    background-image:linear-gradient(180deg,#0c6454d8 1%,#032b22b9 120%);
+}
+.btn-primary:hover{
+    background-color: #bbe6ff;
+}
+.scrollable{
+    height: 300px;
+    overflow: scroll;
+}
+.font{
+    font-family: 'Roboto Slab', serif;
+}
+.card-login{
+    margin: 20% 5% 10% 5%;
+}
+.card-body{
+    height: 15%;
+}
+.padding-input-top{
+    padding: 3% 0% 0% 0%;
+}
+.space{
+    padding: 3% 0% 0% 0%;
+    margin: 20% 5%;
+    height:30px;
+}
+@media only screen and (min-height: 480px) and (min-width: 360px) {
+    .py-10{
+        margin: 4.5% 0px 5% 0px;
+    }
+    .py-9{
+        padding: 0.5% 3.5% 5% 0%;
+    }
+  }
+@media only screen and (min-height: 1000px) and (min-width: 720px) {
+    .py-10{
+        margin: 7% 0px 5% 0px;
+    }
+    .py-9{
+        padding: 5% 2% 5% 0%;
+    }
+  }
+
+@media only screen and (min-width: 1000px) {
+    .btn-action{
+        width: 70px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .fa-sm{
+        font-size: 10px;
+    }
+  }
+@media only screen and (min-width: 1600px) {
+    .btn-action{
+        width: 100px;
+        height: 30px;
+        font-size: 14px;
+    }
+    .fa-sm{
+        font-size: 10px;
+    }
+  }
+.card-header h6, .card-header input{
+    display: inline;
+    /* vertical-align: center; */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 30px; 
+}
+.card-header h6 {
+    font-size: 16px;
+}
+#search_text{
+    /* position: absolute; */
+    /* top: 0.3%; */
+    left: 1%;
+}
+
+.right1{
+    display: flex;
+    position: absoulte;
+    left: 5000px;
+}
+#btnFindRekap{
+    margin-left: 0.5%;
+}
+#btn-margin-unduh{
+    margin-left: 1.0%;
+}
